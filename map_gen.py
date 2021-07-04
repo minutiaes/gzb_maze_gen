@@ -177,7 +177,7 @@ class Map():
 
 def main():
     parser = argparse.ArgumentParser(
-    description='Creates a SDF file for Gazebo which contains a perfect maze', epilog="Enjoy your map!",
+    description='Creates an SDF file for Gazebo which contains a perfect maze', epilog="Enjoy your map!",
     usage="map_gen.py -s 15,15 -o 0,0 -l 1 -f maze -v\n"
     "       For negative origin use '=' sign\n"
     "       map_gen.py -s 5,5 -o=-5,-5 -l 2 -f maze -v")
