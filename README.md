@@ -6,7 +6,7 @@ usage: map_gen.py -s 15,15 -o 0,0 -l 1 -f maze -v
        For negative origin use '=' sign
        map_gen.py -s 5,5 -o=-5,-5 -l 2 -f maze -v
 
-Creates a SDF file for Gazebo which contains a perfect maze
+Creates an SDF file for Gazebo which contains a perfect maze
 
 optional arguments:
   -h, --help      show this help message and exit
