@@ -10,7 +10,7 @@ Creates a SDF file for Gazebo which contains a perfect maze
 
 optional arguments:
   -h, --help      show this help message and exit
-  -s , --size     specifies size of maze like MxN. By default <15,15>
+  -s , --size     specifies size of maze as MxN. By default <15,15>
   -o , --origin   position of top left corner on gazebo world. By default <0,0>
   -l , --length   length of square cell edges. By default <1>
   -f , --file     specifies the name of created SDF file. By default <maze>
