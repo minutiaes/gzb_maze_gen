@@ -182,7 +182,7 @@ def main():
     "       For negative origin use '=' sign\n"
     "       map_gen.py -s 5,5 -o=-5,-5 -l 2 -f maze -v")
 
-    parser.add_argument("-s", "--size", metavar="",type=str , default="15,15", help="specifies size of maze like MxN. By default <15,15>")
+    parser.add_argument("-s", "--size", metavar="",type=str , default="15,15", help="specifies size of maze as MxN. By default <15,15>")
     parser.add_argument("-o", "--origin", metavar="",type=str , default="0,0", help="position of top left corner on gazebo world. By default <0,0>")
     parser.add_argument("-l", "--length", metavar="",type=int , default=1, help="length of square cell edges. By default <1>")
     parser.add_argument("-f", "--file", metavar="",type=str , default="maze", help="specifies the name of created SDF file. By default <maze>")
